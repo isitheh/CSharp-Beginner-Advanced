@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Threading.Channels;
+
 Console.WriteLine("Hello, World!");
 
 /*
@@ -152,6 +154,7 @@ Console.WriteLine("Hello, World!");
     int b = a++;
     Console.WriteLine("The value of a = " + a);
     Console.WriteLine("The value of b = " + b);
+    Console.WriteLine("Add a and b: " + (a+b));
 
     /*
      * Prefix increment example:
@@ -163,4 +166,43 @@ Console.WriteLine("Hello, World!");
     Console.WriteLine("The value of c = " + c);
     Console.WriteLine("The value of d = " + d);
 
+    /*
+     * Division:
+     * 1. Division by 0 causes an exception.
+     * 2. Dividing two integers results in an integer.
+     *    The remainder is lost. See resultInt
+     * 3. For more accurate results during integer division
+     *    cast the operands to a float and obtain the results
+     *    which will be a full representation. See resultFloat.
+     */
+    var val1 = 10;
+    var val2 = 3;
+    var val3 = 5;
+    Console.WriteLine("The resultInt = " + (val1/val2));
+    Console.WriteLine("The resultFloat = " + ((float)val1 / (float)val2));
+
+    /*
+     * Precedence:
+     * Operator precedence in C# follows the mathematical rules. See resPrecedence.
+     * To alter precedence within a C# application, use brackets or parentheses.
+     */
+    Console.WriteLine("The resPrecedence = " + (val1 + val2 * val3));   //Multiplication happens first
+    Console.WriteLine("The resPrecedence = " + (val1 + val2) * val3);   //Operates from left to right.
+
+    /*
+     * Comparators:
+     * Always return a boolean
+     */
+    Console.WriteLine("Is val1 greater than val2? " + (val1 > val2));
+    Console.WriteLine("Is val1 equal to val2? " + (val1 == val2));
+    Console.WriteLine("Is val1 not equal to val2? " + (val1 != val2));
+    Console.WriteLine("Invert the result of (Is val1 not equal to val2?) " + !(val1 != val2));
+
+    /*
+     * Logical:
+     * Get result of first comparison and (&& it) with the result of the second operation.
+     * Get result of first comparison and (|| it) with the result of the second operation.
+     */
+    Console.WriteLine("Is val1 greater than both val2 and val3? " + ((val1 > val2) && (val1 > val3)));
+    Console.WriteLine("Is val1 greater than val2 OR val3? " + ((val1 > val2) || (val1 > val3)));
 }
