@@ -4,6 +4,7 @@ using System.Threading.Channels;
 using Learning_Basics_of_C_.Math;
 using Learning_Basics_of_C_.Shipping;
 using Learning_Basics_of_C_.Structures;
+using static ConditionalsClass;
 
 Console.WriteLine("Hello, World!");
 
@@ -315,4 +316,31 @@ C:\folder\forms\export.pdf";
     array2[0] = 5;               //This modifies both array 1 and array 2 element [0] to 5 because they point to the same value in memory. 
     Console.WriteLine("array1: " + array1[0]);
     Console.WriteLine("array2: " + array2[0]);
+}
+
+/*
+ * Conditionals and Iterations
+ * If, Switch, Ternary operator.
+ * foreach used to iterate through array list or similar
+ * for loop used to iterate for a given number of iterations.
+ * while loop to repeat a block of code while some condition remains true.
+ * do while loop evaluates the condition at the end. So always executes at least once.
+ * break keyword: to jump out of the loop.
+ * continue keyword: to jump to the next iteration.
+ */
+{
+    int hour = 10;
+    var mConditionals = new ConditionalsClass();
+    mConditionals.DayTimeDivider(hour);
+    bool isMyCustomer = false;
+    Console.WriteLine("The price for the customer is: " + mConditionals.GoldMarketPrice(isMyCustomer));
+    var mySeason = ConditionalsClass.Seasons.Summer;
+    mConditionals.SeasonsGreetings(mySeason);
+    var mExercises = new Exercises();
+    /*mExercises.UserInputValidator();
+    mExercises.UserOutputMaximum();
+    mExercises.UserImageLayout();
+    mExercises.UserSpeedCapture();
+    mConditionals.IterationMethods();*/
+    mExercises.ExercisesVerTwo();
 }
