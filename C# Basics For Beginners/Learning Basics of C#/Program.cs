@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Threading.Channels;
+using Learning_Basics_of_C_.Math;
+using Learning_Basics_of_C_.Shipping;
+using Learning_Basics_of_C_.Structures;
 
 Console.WriteLine("Hello, World!");
 
@@ -205,4 +208,111 @@ Console.WriteLine("Hello, World!");
      */
     Console.WriteLine("Is val1 greater than both val2 and val3? " + ((val1 > val2) && (val1 > val3)));
     Console.WriteLine("Is val1 greater than val2 OR val3? " + ((val1 > val2) || (val1 > val3)));
+}
+
+/*
+ * Classes
+ * Basic building blocks of an application.
+ * Ex below: Creating an object from a class.
+ * Object: Instance of a class.
+ */
+{
+    var car = new Car();
+    car.SetMake("Ford");
+    car.SetModel("Fiesta 1.4");
+    car.SetMileage(156368.8);
+    Console.WriteLine("My car is a " + car.GetMake() + " " + car.GetModel() + " with " 
+        + car.GetMileage() + "km on the clock");
+}
+
+/*
+ * Static Method Identifier
+ * If a method is defined as 'static', it can be accessed via the class identifier itself.
+ * For such a method, an instance/object does not need to be created before usage. In fact
+ * static method cannot be accessed via an object. Static fields and methods can only keep
+ * a single copy throughout the run such as Main() and Console().
+ */
+{
+    Console.WriteLine("Adding 2 and 3 results in: " + Calculator.Add(2, 3));
+}
+
+/*
+ * Structures: Struct
+ */
+{
+    var mColor = new RbgColor("#eb4034", "#5beb34", "#347deb");
+    Console.WriteLine("Possible colors are: " + mColor._red + " " + mColor._green + " " + mColor._blue);
+}
+
+/*
+ * Arrays
+ * Zero indexed with fixed size specified at declaration.
+ * Initialized with new keyword to create a new object of type Array.
+ * Below we initialize an array in two different ways.
+ * Array elements are always initialized to the default value for the array type.
+ * Ex: int => 0, boolean => false etc.
+ */
+{
+    //Initialize an array using curly braces.
+    int[] numbers = new int[3] { 1, 2, 3 };
+
+    //Initialize an array using assignment to each array position.
+    int[] values = new int[3];
+    values[0] = 1;
+    values[1] = 2;
+    values[2] = 3;
+
+    var names = new string[3]{"Jean", "Claude", "van Damme"};
+    Console.WriteLine(names[0]);
+    Console.WriteLine(names[1]);
+    Console.WriteLine(names[2]);
+}
+
+/*
+ * String:
+ * Sequence of characters. Specified by double quotes.
+ * Each char in a string is accessible via index position.
+ * Immutable: Once created they cannot be changed. Methods
+ * used to manipulate strings return a new string each time.
+ */
+{
+    var names = new string[3] { "Jean", "Claude", "van Damme" };
+    string hero = string.Join(",", names);
+    Console.WriteLine("Action hero name: " + hero);
+
+    var firstName = "Jakob";
+    var lastName = "Membrane";
+    var fullName = string.Format("My name is {0} {1}", firstName, lastName);
+
+    var text = "Hi Jane.\nEdit the following files:\nC:\\folder\\contracts\\export.docx\nC:\\folder\\forms\\export.docx";
+    Console.WriteLine(text);
+
+    //Using verbatim string to format longer and complex strings
+    var verbatimString = @"Hi Doe.
+Sign the following files:
+C:\folder\contracts\export.pdf
+C:\folder\forms\export.pdf";
+    Console.WriteLine(verbatimString);
+}
+
+/*
+ * Enums, Value Types and Reference Types
+ */
+{
+    var methodId = 3;
+    Console.WriteLine("Shipping Method used: " + (ShippingMethod)methodId);
+    Console.WriteLine("Id for the Shipping Method used:" + (int)((ShippingMethod)methodId));
+
+    //Value Types
+    var a = 10;
+    var b = a;
+    b++;
+    Console.WriteLine(string.Format("a: {0}, b: {1}", a, b));
+
+    //Reference Types
+    var array1 = new int[3] { 1, 2, 3 };
+    var array2 = array1;    //The memory address is copied, not the value
+    array2[0] = 5;               //This modifies both array 1 and array 2 element [0] to 5 because they point to the same value in memory. 
+    Console.WriteLine("array1: " + array1[0]);
+    Console.WriteLine("array2: " + array2[0]);
 }
