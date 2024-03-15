@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Threading.Channels;
+using Learning_Basics_of_C_.Exercises;
 using Learning_Basics_of_C_.Math;
 using Learning_Basics_of_C_.Shipping;
 using Learning_Basics_of_C_.Structures;
@@ -333,6 +334,7 @@ C:\folder\forms\export.pdf";
     var mConditionals = new ConditionalsClass();
     var mExercises = new Exercises();
     var LearningDateTime = new LearningDateTime();
+    var workingWithString = new WorkingWithText();
     mConditionals.DayTimeDivider(hour);
     bool isMyCustomer = false;
     Console.WriteLine("The price for the customer is: " + mConditionals.GoldMarketPrice(isMyCustomer));
@@ -355,4 +357,17 @@ C:\folder\forms\export.pdf";
     mExercises.AddRangeExample();*/
     LearningDateTime.DateInfoSession();
     LearningDateTime.TimeInfoSession();
+    workingWithString.someExamples();
+    //workingWithString.StringValidators();
+    var sentence =
+        "This sentence is a very long sentence because we are testing how to " +
+        "summarize text or view shortened version of the string in the console";
+    var summary = workingWithString.SummarizingText(sentence, 25);
+    Console.WriteLine(summary);
+    workingWithString.UsingStringBuilder();
+    /*Console.WriteLine(mExercises.ConsecutiveNumbers());
+    Console.WriteLine(mExercises.DuplicateNumbers());
+    Console.WriteLine(mExercises.DateTimeExercise());
+    Console.WriteLine(mExercises.StudentExercise());*/
+    mExercises.VowelCounter();
 }

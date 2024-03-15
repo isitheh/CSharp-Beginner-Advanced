@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿namespace Learning_Basics_of_C_.Exercises;
 
 public class Exercises
 {
@@ -25,7 +23,7 @@ public class Exercises
         int num1 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter another number : ");
         int num2 = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Maximum is: " + Math.Max(num1, num2));
+        Console.WriteLine("Maximum is: " + System.Math.Max(num1, num2));
     }
 
     public void UserImageLayout()
@@ -49,7 +47,7 @@ public class Exercises
         }
         else
         {
-            int pointAboveLimit = Math.Abs(speedLimit - carSpeed);
+            int pointAboveLimit = System.Math.Abs(speedLimit - carSpeed);
             if (pointAboveLimit > 12)
             {
                 Console.WriteLine("Above by: " + pointAboveLimit + " Points. License Suspended.");
@@ -235,7 +233,7 @@ public class Exercises
     {
         var numbersArray = new int[5];
         int counter = 0;
-        while (true) 
+        while (true)
         {
             Console.WriteLine("Enter a number: ");
             var numInput = Console.ReadLine();
@@ -262,6 +260,7 @@ public class Exercises
                 break;
             }
         }
+
         Array.Sort(numbersArray);
         Console.WriteLine("After sorting numbersArray = ");
         foreach (var mNum in numbersArray)
@@ -287,6 +286,7 @@ public class Exercises
                 numbersList.Add(aNumber);
             }
         }
+
         Console.WriteLine("Populated Unique/Distinct List = ");
         foreach (var mNum in numbersList.Distinct())
         {
@@ -315,6 +315,7 @@ public class Exercises
                         countCommas++;
                     }
                 }
+
                 if (countCommas < 4)
                 {
                     Console.WriteLine("Invalid List, please retry.");
@@ -330,9 +331,116 @@ public class Exercises
                 }
             }
         }
+
         for (var i = 0; i < 3; i++)
         {
             Console.WriteLine(numbersList.ElementAt(i));
+        }
+    }
+
+    public string ConsecutiveNumbers()
+    {
+        Console.WriteLine("Enter a hyphen separated list of numbers (Enter when done): ");
+        var strInput = Console.ReadLine();
+        Console.WriteLine(strInput);
+        string[] numArrStr = strInput.Split('-');
+        int[] numArr = Array.ConvertAll(numArrStr, int.Parse);
+        Array.Sort(numArr);
+        for (var i = 1; i < numArr.Length; i++)
+        {
+            if ((numArr[i] - numArr[i - 1]) != 1)
+            {
+                return "Not Consecutive.";
+            }
+        }
+
+        return "Consecutive.";
+    }
+
+    public string DuplicateNumbers()
+    {
+        var numbersList = new List<int>();
+        Console.WriteLine("Enter a hyphen separated list of numbers: ");
+        var hyphenNumbersList = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(hyphenNumbersList))
+        {
+            return "No execution performed.";
+        }
+
+        string[] numArrStr = hyphenNumbersList.Split('-');
+        int[] numArr = Array.ConvertAll(numArrStr, int.Parse);
+        Array.Sort(numArr);
+        numbersList.AddRange(numArr);
+        if (numbersList.Count > numbersList.Distinct().Count())
+        {
+            return "Duplicate";
+        }
+
+        return "Distinct";
+    }
+
+    public string DateTimeExercise()
+    {
+        Console.WriteLine("Enter a time in 24hour format: ");
+        var hyphenNumbersList = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(hyphenNumbersList))
+        {
+            return "Invalid Time";
+        }
+
+        var mTimeArr = hyphenNumbersList.Split(':');
+        int mHour = Convert.ToByte(mTimeArr[0]);
+        int mMinute = Convert.ToByte(mTimeArr[1]);
+        int Seconds = 0;
+        var mTimeSpan = new TimeSpan(mHour, mMinute, Seconds);
+        var checkTimeSpan = new TimeSpan(24, 0, 0);
+        if (checkTimeSpan.TotalSeconds > mTimeSpan.TotalSeconds)
+        {
+            return "Ok";
+        }
+        return "Invalid Time";
+    }
+
+    public string StudentExercise()
+    {
+        Console.WriteLine("Write a sentence: ");
+        var sentence = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(sentence))
+        {
+            return "Invalid Sentence";
+        }
+        sentence = sentence.Trim().ToLower();
+        var wordList = sentence.Split(' ');
+        var wordsForSentence = new List<string>();
+        foreach (var word in wordList)
+        {
+            wordsForSentence.Add((char.ToUpper(word[0]) + word.Substring(1)));
+        }
+        return (string.Join("", wordsForSentence));
+    }
+
+    public void VowelCounter()
+    {
+        Console.WriteLine("Enter a word: ");
+        int count = 0;
+        var word = Console.ReadLine();
+        if (!string.IsNullOrWhiteSpace(word))
+        {
+            var charArr = word.ToCharArray();
+            foreach (char mChar in charArr)
+            {
+                switch (mChar)
+                {
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'o':
+                    case 'u':
+                        count++;
+                        break;
+                }
+            }
+            Console.WriteLine(count);
         }
     }
 }
