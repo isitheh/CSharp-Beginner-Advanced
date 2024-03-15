@@ -331,12 +331,14 @@ C:\folder\forms\export.pdf";
 {
     int hour = 10;
     var mConditionals = new ConditionalsClass();
+    var mExercises = new Exercises();
+    var LearningDateTime = new LearningDateTime();
     mConditionals.DayTimeDivider(hour);
     bool isMyCustomer = false;
     Console.WriteLine("The price for the customer is: " + mConditionals.GoldMarketPrice(isMyCustomer));
     var mySeason = ConditionalsClass.Seasons.Summer;
     mConditionals.SeasonsGreetings(mySeason);
-    var mExercises = new Exercises();
+    
     /*mExercises.UserInputValidator();
     mExercises.UserOutputMaximum();
     mExercises.UserImageLayout();
@@ -349,6 +351,8 @@ C:\folder\forms\export.pdf";
     /*mExercises.ArraysListsFacebookExercise();
     mExercises.ArraysListsReversalExercise();
     mExercises.ArraysListsNumExercise();
-    mExercises.UniqueNumExercise();*/
-    mExercises.AddRangeExample();
+    mExercises.UniqueNumExercise();
+    mExercises.AddRangeExample();*/
+    LearningDateTime.DateInfoSession();
+    LearningDateTime.TimeInfoSession();
 }
