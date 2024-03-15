@@ -343,4 +343,12 @@ C:\folder\forms\export.pdf";
     mExercises.UserSpeedCapture();
     mConditionals.IterationMethods();*/
     mExercises.ExercisesVerTwo();
+    var mLearnArrayList = new LearnArrayList();
+    mLearnArrayList.PracticeArrays();
+    mLearnArrayList.PracticeLists();
+    /*mExercises.ArraysListsFacebookExercise();
+    mExercises.ArraysListsReversalExercise();
+    mExercises.ArraysListsNumExercise();
+    mExercises.UniqueNumExercise();*/
+    mExercises.AddRangeExample();
 }

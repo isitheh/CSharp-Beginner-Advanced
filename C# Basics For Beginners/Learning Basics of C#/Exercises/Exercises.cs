@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Exercises
 {
@@ -78,6 +80,7 @@ public class Exercises
                 counter++;
             }
         }
+
         Console.WriteLine("There are " + counter + " numbers divisible by 3 between 1 and 100");
         //ContinuallyAskForNumberOkToExit();
         //ComputeFactorialResult();
@@ -103,6 +106,7 @@ public class Exercises
                 Console.WriteLine("You hit the Jackpot with number : " + aNumber);
                 break;
             }
+
             count++;
             if (count == 4)
             {
@@ -110,7 +114,7 @@ public class Exercises
                 Console.WriteLine("You Lose. Try again Next Week!");
             }
         }
-        
+
     }
 
     public void ComputeFactorialResult()
@@ -136,7 +140,7 @@ public class Exercises
     public void ContinuallyAskForNumberOkToExit()
     {
         int counter = 0;
-        while (true)    //Loop continuously
+        while (true) //Loop continuously
         {
             Console.WriteLine("Enter a number: ");
             var numInput = Console.ReadLine();
@@ -151,5 +155,184 @@ public class Exercises
         }
 
         Console.WriteLine("The user has entered: " + counter + " numbers");
+    }
+
+    public void ArraysListsFacebookExercise()
+    {
+        var friendsList = new List<string>();
+        while (true) //Loop continuously
+        {
+            Console.WriteLine("Enter friends name: ");
+            var nameInput = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(nameInput))
+            {
+                break;
+            }
+            else
+            {
+                friendsList.Add(nameInput);
+            }
+        }
+
+        if (friendsList.Count != 0)
+        {
+            if (friendsList.Count == 1)
+            {
+                Console.WriteLine("[" + friendsList.ElementAt(0) + "]" + " likes your post.");
+            }
+            else if (friendsList.Count == 2)
+            {
+                Console.WriteLine("[" + friendsList.ElementAt(0) + "] and " +
+                                  "[" + friendsList.ElementAt(1) + "]" + " like your post.");
+            }
+            else
+            {
+                Console.WriteLine("[" + friendsList.ElementAt(0) + "], " +
+                                  "[" + friendsList.ElementAt(1) + "] and " + (friendsList.Count - 2)
+                                  + " others like your post.");
+            }
+        }
+        else
+        {
+            Console.WriteLine();
+        }
+    }
+
+    public void ArraysListsReversalExercise()
+    {
+        var myName = new string("");
+        while (true) //Loop continuously
+        {
+            Console.WriteLine("Enter your name: ");
+            var nameInput = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(nameInput))
+            {
+                break;
+            }
+            else
+            {
+                myName = nameInput;
+                break;
+            }
+        }
+
+        Console.WriteLine("My Name = ");
+        foreach (var t in myName)
+        {
+            Console.Write(t);
+        }
+
+        Console.WriteLine();
+        var myNameArray = myName.ToCharArray().Reverse();
+        Console.WriteLine("Reversed My Name = ");
+        foreach (var t in myNameArray)
+        {
+            Console.Write(t);
+        }
+    }
+
+    public void ArraysListsNumExercise()
+    {
+        var numbersArray = new int[5];
+        int counter = 0;
+        while (true) 
+        {
+            Console.WriteLine("Enter a number: ");
+            var numInput = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(numInput))
+            {
+                continue;
+            }
+            else
+            {
+                var aNumber = Convert.ToInt32(numInput);
+                if (!numbersArray.Contains(aNumber))
+                {
+                    numbersArray[counter] = aNumber;
+                    counter++;
+                }
+                else
+                {
+                    Console.WriteLine("Try a different number.");
+                }
+            }
+
+            if (counter == 5)
+            {
+                break;
+            }
+        }
+        Array.Sort(numbersArray);
+        Console.WriteLine("After sorting numbersArray = ");
+        foreach (var mNum in numbersArray)
+        {
+            Console.WriteLine(mNum);
+        }
+    }
+
+    public void UniqueNumExercise()
+    {
+        var numbersList = new List<int>();
+        while (true)
+        {
+            Console.WriteLine("Enter a number: ");
+            var strInput = Console.ReadLine();
+            if (strInput != null && strInput.Equals("Quit"))
+            {
+                break;
+            }
+            else
+            {
+                var aNumber = Convert.ToInt32(strInput);
+                numbersList.Add(aNumber);
+            }
+        }
+        Console.WriteLine("Populated Unique/Distinct List = ");
+        foreach (var mNum in numbersList.Distinct())
+        {
+            Console.WriteLine(mNum);
+        }
+    }
+
+    public void AddRangeExample()
+    {
+        var numbersList = new List<int>();
+        while (true)
+        {
+            Console.WriteLine("Enter a comma separated list of numbers: ");
+            var commaNumbersList = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(commaNumbersList))
+            {
+                Console.WriteLine("Invalid List, please retry.");
+            }
+            else
+            {
+                int countCommas = 0;
+                foreach (char c in commaNumbersList)
+                {
+                    if (c == ',')
+                    {
+                        countCommas++;
+                    }
+                }
+                if (countCommas < 4)
+                {
+                    Console.WriteLine("Invalid List, please retry.");
+                }
+                else
+                {
+                    Console.WriteLine(commaNumbersList);
+                    string[] numArrStr = commaNumbersList.Split(',');
+                    int[] numArr = Array.ConvertAll(numArrStr, int.Parse);
+                    Array.Sort(numArr);
+                    numbersList.AddRange(numArr);
+                    break;
+                }
+            }
+        }
+        for (var i = 0; i < 3; i++)
+        {
+            Console.WriteLine(numbersList.ElementAt(i));
+        }
     }
 }
