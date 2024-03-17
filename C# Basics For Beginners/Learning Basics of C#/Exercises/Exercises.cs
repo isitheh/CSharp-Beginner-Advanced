@@ -443,4 +443,37 @@ public class Exercises
             Console.WriteLine(count);
         }
     }
+
+    public void ReadTextFileContents()
+    {
+        //Our verbatim string for cleaner reference to path.
+        var path = @"C:\Users\gamas1\Downloads\Coding\UsefulCmd.txt";
+        if (File.Exists(path))
+        {
+            Console.WriteLine("File: " + path + " exists.");
+            var mRead = File.ReadAllText(path);
+            Console.WriteLine("File " + path + " contains: " + mRead.Length + " number of words.");
+        }
+    }
+
+    public void DisplayLongestWord()
+    {
+        //Our verbatim string for cleaner reference to path.
+        var path = @"C:\Users\gamas1\Downloads\Coding\UsefulCmd.txt";
+        if (File.Exists(path))
+        {
+            Console.WriteLine("File: " + path + " exists.");
+            var mRead = File.ReadAllText(path);
+            var wordsRead = mRead.Split(' ');
+            var longestWord = "";
+            foreach (var word in wordsRead)
+            {
+                if (word.Length > longestWord.Length)
+                {
+                    longestWord = word;
+                }
+            }
+            Console.WriteLine("Logest word in Cmd File is: " + longestWord);
+        }
+    }
 }

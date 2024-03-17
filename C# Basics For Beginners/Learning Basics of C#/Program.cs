@@ -335,6 +335,8 @@ C:\folder\forms\export.pdf";
     var mExercises = new Exercises();
     var LearningDateTime = new LearningDateTime();
     var workingWithString = new WorkingWithText();
+    workingWithString.UsingStringBuilder();
+    var workingWithFiles = new WorkingWithFiles();
     mConditionals.DayTimeDivider(hour);
     bool isMyCustomer = false;
     Console.WriteLine("The price for the customer is: " + mConditionals.GoldMarketPrice(isMyCustomer));
@@ -368,6 +370,9 @@ C:\folder\forms\export.pdf";
     /*Console.WriteLine(mExercises.ConsecutiveNumbers());
     Console.WriteLine(mExercises.DuplicateNumbers());
     Console.WriteLine(mExercises.DateTimeExercise());
-    Console.WriteLine(mExercises.StudentExercise());*/
-    mExercises.VowelCounter();
+    Console.WriteLine(mExercises.StudentExercise());
+    mExercises.VowelCounter();*/
+    //workingWithFiles.someExample();
+    mExercises.ReadTextFileContents();
+    mExercises.DisplayLongestWord();
 }
