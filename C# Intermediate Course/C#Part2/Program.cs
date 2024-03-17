@@ -16,6 +16,8 @@ Console.WriteLine("Hello, Intermediate C#!");
     UseIndexers();
     UsingInheritance();
     UsingComposition();
+    ExerciseStopWatch();
+    ExerciseStackOverflowPost();
 }
 
 
@@ -120,4 +122,63 @@ void UsingComposition()
 
     dbMigrator.Migrate();
     installer.Install();
+}
+
+/*
+   Design a Stopwatch:
+   Design a class called Stopwatch. The job of this class is to simulate a stopwatch. It should
+   provide two methods: Start and Stop. We call the start method first, and the stop method next.
+   Then we ask the stopwatch about the duration between start and stop. Duration should be a
+   value in TimeSpan. Display the duration on the console.
+ */
+void ExerciseStopWatch()
+{
+    var stopWatch = new StopWatch();
+    //First Run
+    stopWatch.StartStopWatch();
+    int oneSecond = 1000;
+    Thread.Sleep(oneSecond);
+    stopWatch.StopStopWatch();
+    stopWatch.CalculateElapsedTime();
+
+    //Second Run
+    stopWatch.StartStopWatch();
+    int twoSecond = 2000;
+    Thread.Sleep(twoSecond);
+    stopWatch.StopStopWatch();
+    stopWatch.CalculateElapsedTime();
+
+    //Third Run
+    stopWatch.StartStopWatch();
+    int threeSecond = 3000;
+    Thread.Sleep(threeSecond);
+    stopWatch.StopStopWatch();
+    stopWatch.CalculateElapsedTime();
+}
+
+/*
+   Design a StackOverflow Post:
+   Design a class called Post. This class models a StackOverflow post. It should have properties
+   for title, description and the date/time it was created. We should be able to up-vote or down-vote
+   a post. We should also be able to see the current vote value. In the main method, create a post,
+   up-vote and down-vote it a few times and then display the current vote value.
+ */
+void ExerciseStackOverflowPost()
+{
+    var stackOverflowPost = new StackOverflowPost()
+    {
+        Title = "C++ compiler not found, Windows 98.",
+        Description = "C++ Compiler installed in the Windows Machine but not recognized on the command line.",
+        TimeCreated = DateTime.Now,
+    };
+    Console.WriteLine("Post Title {0}", stackOverflowPost.Title);
+    Console.WriteLine("Post Description {0}", stackOverflowPost.Description);
+    Console.WriteLine("Post TimeCreated {0}", stackOverflowPost.TimeCreated);
+
+    stackOverflowPost.UpVotePost();
+    stackOverflowPost.DownVotePost();
+    stackOverflowPost.UpVotePost();
+    stackOverflowPost.UpVotePost();
+
+    Console.WriteLine("Post Votes {0}", stackOverflowPost.GetPostVotes());
 }
