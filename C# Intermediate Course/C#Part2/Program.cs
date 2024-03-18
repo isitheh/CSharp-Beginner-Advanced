@@ -2,6 +2,7 @@
 
 using C_Part2.ClassIntro;
 using C_Part2.DemoEncapsulation;
+using C_Part2.Exercises;
 using C_Part2.Inheritance;
 using C_Part2.MethodsParams;
 
@@ -19,6 +20,7 @@ Console.WriteLine("Hello, Intermediate C#!");
     ExerciseStopWatch();
     ExerciseStackOverflowPost();
     UsingCasting();
+    UsingStackDesign();
 }
 
 
@@ -216,4 +218,17 @@ void UsingCasting()
      */
     Shape shape = new Circle();
     Circle circle = (Circle)shape;  //Downcast
+    var boxing = new BoxUnBox();
+    boxing.BusyBoxing();
+}
+
+void UsingStackDesign()
+{
+    var stack = new StackDesign();
+    stack.Push(1);
+    stack.Push(2);
+    stack.Push(3);
+    Console.WriteLine(stack.Pop());
+    Console.WriteLine(stack.Pop());
+    Console.WriteLine(stack.Pop());
 }
