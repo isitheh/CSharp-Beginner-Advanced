@@ -18,6 +18,7 @@ Console.WriteLine("Hello, Intermediate C#!");
     UsingComposition();
     ExerciseStopWatch();
     ExerciseStackOverflowPost();
+    UsingCasting();
 }
 
 
@@ -103,6 +104,7 @@ void UseIndexers()
     var cookie = new HttpCookie();
     cookie["name"] = "Royalty";
     Console.WriteLine("See result: " + cookie["name"]);
+
 }
 
 void UsingInheritance()
@@ -112,6 +114,30 @@ void UsingInheritance()
         Width = 100
     };
     text.Copy();
+
+    var buyer = new Buyer
+    {
+        Id = 1,
+        Name = "Raketi"
+    };
+    buyer.Promote();
+    string regNum = "AB 12 FG - GP";
+    var car = new Car(regNum);
+
+    Circle circle = new Circle();
+    //Convert an object reference circle to its base type reference shape.
+    Shape shape = circle; //Only limited members are available to shape ref.
+
+    circle.Width = 200;
+    shape.Width = 100;
+    Console.WriteLine("The above modify the same reference in memory - circle.Width = " + circle.Width);
+    
+    //First check if object is class before casting to class.
+    if (shape is Circle)
+    {
+        Circle anotherCircle = (Circle) shape;
+    }
+    
 }
 
 void UsingComposition()
@@ -181,4 +207,13 @@ void ExerciseStackOverflowPost()
     stackOverflowPost.UpVotePost();
 
     Console.WriteLine("Post Votes {0}", stackOverflowPost.GetPostVotes());
+}
+
+void UsingCasting()
+{
+    /*
+     * The object shape is of type Shape at compile time but type Circle at runtime.
+     */
+    Shape shape = new Circle();
+    Circle circle = (Circle)shape;  //Downcast
 }

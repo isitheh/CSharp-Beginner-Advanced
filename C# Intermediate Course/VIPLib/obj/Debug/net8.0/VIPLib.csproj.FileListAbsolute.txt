@@ -1,0 +1,5 @@
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\C# Intermediate Course\VIPLib\obj\Debug\net8.0\VIPLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\C# Intermediate Course\VIPLib\obj\Debug\net8.0\VIPLib.AssemblyInfoInputs.cache
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\C# Intermediate Course\VIPLib\obj\Debug\net8.0\VIPLib.AssemblyInfo.cs
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\C# Intermediate Course\VIPLib\obj\Debug\net8.0\VIPLib.csproj.CoreCompileInputs.cache
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\C# Intermediate Course\VIPLib\obj\Debug\net8.0\VIPLib.sourcelink.json
