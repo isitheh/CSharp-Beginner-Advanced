@@ -1,10 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using C_Part2.ClassIntro;
+using C_Part2.DbConExercise;
 using C_Part2.DemoEncapsulation;
 using C_Part2.Exercises;
 using C_Part2.Inheritance;
 using C_Part2.MethodsParams;
+using C_Part2.Polymorphism;
 
 Console.WriteLine("Hello, Intermediate C#!");
 {
@@ -21,6 +23,8 @@ Console.WriteLine("Hello, Intermediate C#!");
     ExerciseStackOverflowPost();
     UsingCasting();
     UsingStackDesign();
+    UsingPolymorphism();
+    ExercisePolymorphism();
 }
 
 
@@ -231,4 +235,28 @@ void UsingStackDesign()
     Console.WriteLine(stack.Pop());
     Console.WriteLine(stack.Pop());
     Console.WriteLine(stack.Pop());
+}
+
+void UsingPolymorphism()
+{
+    var shapes = new List<ShapeClass>
+    {
+        new CircleClass(),
+        new Rectangle(),
+        new ImageClass(),
+        new Triangle()
+    };
+    var canvas = new Canvas();
+    canvas.DrawShapes(shapes);
+}
+
+void ExercisePolymorphism()
+{
+    var conOracle = new OracleConnection("OracleConnectionString");
+    var makeCommandOracle = new DbCommand(conOracle, conOracle.ConnectionString);
+    makeCommandOracle.Execute();
+    Console.WriteLine("================ Break ================");
+    var conSql = new SqlConnection("SqlConnectionString");
+    var makeCommandSql = new DbCommand(null, conSql.ConnectionString);
+    makeCommandSql.Execute();
 }

@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\inheritance\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|solutionrelative:inheritance\\text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\dbconexercise\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|solutionrelative:dbconexercise\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\dbconexercise\\oracleconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|solutionrelative:dbconexercise\\oracleconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\polymorphism\\shapeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FE2783-5F98-49FB-A78F-D12CEDC1936A}|C#Part2.csproj|solutionrelative:polymorphism\\shapeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +40,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAANMAAAAAAAAAAIAwwOYAAAAdAAAA",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAkwAQBAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T06:17:27.642Z",
               "IsPinned": true,
@@ -40,15 +48,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Text.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Inheritance\\Text.cs",
-              "RelativeDocumentMoniker": "Inheritance\\Text.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Inheritance\\Text.cs",
-              "RelativeToolTip": "Inheritance\\Text.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "ShapeClass.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Polymorphism\\ShapeClass.cs",
+              "RelativeDocumentMoniker": "Polymorphism\\ShapeClass.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Polymorphism\\ShapeClass.cs",
+              "RelativeToolTip": "Polymorphism\\ShapeClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T09:17:16.272Z"
+              "WhenOpened": "2024-03-18T14:26:02.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OracleConnection.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\DbConExercise\\OracleConnection.cs",
+              "RelativeDocumentMoniker": "DbConExercise\\OracleConnection.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\DbConExercise\\OracleConnection.cs",
+              "RelativeToolTip": "DbConExercise\\OracleConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:56:41.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SqlConnection.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\DbConExercise\\SqlConnection.cs",
+              "RelativeDocumentMoniker": "DbConExercise\\SqlConnection.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\DbConExercise\\SqlConnection.cs",
+              "RelativeToolTip": "DbConExercise\\SqlConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:56:31.151Z",
+              "EditorCaption": ""
             }
           ]
         }
