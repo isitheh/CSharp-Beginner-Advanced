@@ -83,7 +83,7 @@ void UsePoint()
         point.Move(null);
         Console.WriteLine("Latest Point is at ({0}, {1})", point.X, point.Y);
     }
-    catch (Exception e)
+    catch (Exception)
     {
         Console.WriteLine("Unexpected error occured: ");
         throw;
@@ -257,6 +257,7 @@ void ExercisePolymorphism()
     makeCommandOracle.Execute();
     Console.WriteLine("================ Break ================");
     var conSql = new SqlConnection("SqlConnectionString");
-    var makeCommandSql = new DbCommand(null, conSql.ConnectionString);
+    var makeCommandSql = new DbCommand(conSql, conSql.ConnectionString);
     makeCommandSql.Execute();
 }
+
