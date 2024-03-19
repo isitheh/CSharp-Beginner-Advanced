@@ -4,9 +4,11 @@ using C_Part2.ClassIntro;
 using C_Part2.DbConExercise;
 using C_Part2.DemoEncapsulation;
 using C_Part2.Exercises;
+using C_Part2.Extensibility;
 using C_Part2.Inheritance;
 using C_Part2.MethodsParams;
 using C_Part2.Polymorphism;
+using C_Part2.WorkflowEngineExercise;
 
 Console.WriteLine("Hello, Intermediate C#!");
 {
@@ -25,6 +27,8 @@ Console.WriteLine("Hello, Intermediate C#!");
     UsingStackDesign();
     UsingPolymorphism();
     ExercisePolymorphism();
+    UsingInterfaces();
+    UsingWorkflowEngine();
 }
 
 
@@ -261,3 +265,15 @@ void ExercisePolymorphism()
     makeCommandSql.Execute();
 }
 
+void UsingInterfaces()
+{
+    //Place a log text file in the Downloads folder.
+    var dbMigrator = new DbMigratorClass(new FileLogger("C:\\Users\\gamas1\\Downloads\\log.txt"));
+    dbMigrator.Migrate();
+}
+
+void UsingWorkflowEngine()
+{
+    var workFlowRunner = new WorkflowEngine(new WfACtivity());
+    workFlowRunner.Run();
+}

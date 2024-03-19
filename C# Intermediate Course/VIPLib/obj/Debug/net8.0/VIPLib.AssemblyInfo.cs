@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VIPLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43f24fa37805f4340243fbb57bd6a943cc7a6006")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b987d12d2faa680dd16ee57c6be5274b7f58b9ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("VIPLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VIPLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
