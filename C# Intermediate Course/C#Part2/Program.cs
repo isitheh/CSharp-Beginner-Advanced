@@ -238,7 +238,7 @@ void UsingStackDesign()
     stack.Push(3);
     Console.WriteLine(stack.Pop());
     Console.WriteLine(stack.Pop());
-    Console.WriteLine(stack.Pop());
+    stack.Clear();
 }
 
 void UsingPolymorphism()

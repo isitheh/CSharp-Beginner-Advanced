@@ -1,4 +1,5 @@
 ﻿using System;
+using C_Part2.WorkflowEngineExercise;
 
 public class WorkflowEngine
 {
@@ -11,15 +12,13 @@ public class WorkflowEngine
 
     public void Run()
     {
-        List<string> activities = ["Eat", "Sleep", "Exercise"];
-        List<string> videoActivities =
+        List<IActivity> activities =
         [
-            "Upload a video to a cloud storage",
-            "Call a web service provided by a third - party video encoding service.",
-            "Set status to 'Encoding'",
-            "Send an email notification to owner.",
-            "Set status to 'Processing'",
+            new UploadVideo(),
+            new BusyStatus(),
+            new ServerExchange(),
+            new MarkCompletion()
         ];
-        _workflow.Execute(videoActivities);
+        _workflow.Execute(activities);
     }
 }

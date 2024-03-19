@@ -2,39 +2,36 @@
 
 public class StopWatch
 {
-    private bool _isRunning =  false;
+    private bool _isRunning;
 	public StopWatch()
 	{
         _isRunning = false;
     }
 
-    public DateTime StartTime { get; set; }
-    public DateTime EndTime { get; set; }
+    private DateTime _startTime;
+    private DateTime _endTime;
 
     public void StartStopWatch()
     {
-        if (_isRunning == false)
-        {
-            StartTime = DateTime.Now;
-            var mTimeSpan = new TimeSpan(this.StartTime.Hour, this.StartTime.Minute, this.StartTime.Second);
-            _isRunning = true;
-        }
-        else
+        if (_isRunning)
         {
             throw new InvalidOperationException("The Stopwatch is already running");
         }
+
+        _startTime = DateTime.Now;
+        var mTimeSpan = new TimeSpan(this._startTime.Hour, this._startTime.Minute, this._startTime.Second);
+        _isRunning = true;
     }
 
     public void StopStopWatch()
     {
-        EndTime = DateTime.Now;
-        var mTimeSpan = new TimeSpan(this.EndTime.Hour, this.EndTime.Minute, this.EndTime.Second);
+        _endTime = DateTime.Now;
+        var mTimeSpan = new TimeSpan(this._endTime.Hour, this._endTime.Minute, this._endTime.Second);
         _isRunning = false;
     }
 
     public void CalculateElapsedTime()
     {
-        var mTimeSpan = this.EndTime - this.StartTime;
-        Console.WriteLine("Time Passed = {0}", mTimeSpan);
+        Console.WriteLine("Time Passed = {0}", (this._endTime - this._startTime));
     }
 }

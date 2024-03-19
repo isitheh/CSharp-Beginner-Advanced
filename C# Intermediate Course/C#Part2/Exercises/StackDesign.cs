@@ -4,7 +4,7 @@ namespace C_Part2.Exercises;
 
 public class StackDesign
 {
-    private ArrayList _mList = new ArrayList();
+    private readonly ArrayList _mList = new ArrayList();
     public StackDesign()
     {
     }
@@ -20,13 +20,15 @@ public class StackDesign
 
     public object? Pop()
     {
-        if (_mList.Count != 0)
+        if (_mList.Count == 0)
         {
-            object? obj = _mList[_mList.Count - 1];
-            _mList.RemoveAt(_mList.Count - 1);
-            return obj;
+            throw new InvalidOperationException("The stack is empty.");
         }
-        throw new InvalidOperationException("The stack is empty.");
+
+        var listCount = _mList.Count - 1;
+        object? obj = _mList[listCount];
+        _mList.RemoveAt(listCount);
+        return obj;
     }
 
     public void Clear()

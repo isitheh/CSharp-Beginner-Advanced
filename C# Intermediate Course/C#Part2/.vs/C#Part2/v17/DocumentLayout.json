@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\workflowengineexercise\\workflowengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:workflowengineexercise\\workflowengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\workflowengineexercise\\uploadvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:workflowengineexercise\\uploadvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\workflowengineexercise\\wfactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:workflowengineexercise\\wfactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\extensibility\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:extensibility\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\extensibility\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:extensibility\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\workflowengineexercise\\iworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:workflowengineexercise\\iworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\extensibility\\dbmigratorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:extensibility\\dbmigratorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\extensibility\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:extensibility\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# intermediate course\\c#part2\\workflowengineexercise\\iactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65640A43-F374-4FD5-97A7-6797B69B1EFC}|C#Part2.csproj|solutionrelative:workflowengineexercise\\iactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,79 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WfACtivity.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\WfACtivity.cs",
-              "RelativeDocumentMoniker": "WorkflowEngineExercise\\WfACtivity.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\WfACtivity.cs",
-              "RelativeToolTip": "WorkflowEngineExercise\\WfACtivity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Title": "UploadVideo.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\UploadVideo.cs",
+              "RelativeDocumentMoniker": "WorkflowEngineExercise\\UploadVideo.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\UploadVideo.cs",
+              "RelativeToolTip": "WorkflowEngineExercise\\UploadVideo.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:10:07.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileLogger.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Extensibility\\FileLogger.cs",
-              "RelativeDocumentMoniker": "Extensibility\\FileLogger.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Extensibility\\FileLogger.cs",
-              "RelativeToolTip": "Extensibility\\FileLogger.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAhwBIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T09:59:07.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConsoleLogger.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Extensibility\\ConsoleLogger.cs",
-              "RelativeDocumentMoniker": "Extensibility\\ConsoleLogger.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Extensibility\\ConsoleLogger.cs",
-              "RelativeToolTip": "Extensibility\\ConsoleLogger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T09:54:52.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbMigratorClass.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Extensibility\\DbMigratorClass.cs",
-              "RelativeDocumentMoniker": "Extensibility\\DbMigratorClass.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Extensibility\\DbMigratorClass.cs",
-              "RelativeToolTip": "Extensibility\\DbMigratorClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T09:27:23.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAABAAAAAAAAAIA1wBUBAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T09:27:42.912Z",
+              "WhenOpened": "2024-03-19T13:40:57.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ILogger.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Extensibility\\ILogger.cs",
-              "RelativeDocumentMoniker": "Extensibility\\ILogger.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Extensibility\\ILogger.cs",
-              "RelativeToolTip": "Extensibility\\ILogger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Title": "IActivity.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\IActivity.cs",
+              "RelativeDocumentMoniker": "WorkflowEngineExercise\\IActivity.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\IActivity.cs",
+              "RelativeToolTip": "WorkflowEngineExercise\\IActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T09:26:10.637Z",
+              "WhenOpened": "2024-03-19T13:39:58.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WfACtivity.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\WfACtivity.cs",
+              "RelativeDocumentMoniker": "WorkflowEngineExercise\\WfACtivity.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\WfACtivity.cs",
+              "RelativeToolTip": "WorkflowEngineExercise\\WfACtivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:38:20.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IWorkflow.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\IWorkflow.cs",
+              "RelativeDocumentMoniker": "WorkflowEngineExercise\\IWorkflow.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\IWorkflow.cs",
+              "RelativeToolTip": "WorkflowEngineExercise\\IWorkflow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:33:47.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkflowEngine.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\WorkflowEngine.cs",
+              "RelativeDocumentMoniker": "WorkflowEngineExercise\\WorkflowEngine.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\WorkflowEngineExercise\\WorkflowEngine.cs",
+              "RelativeToolTip": "WorkflowEngineExercise\\WorkflowEngine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:32:53.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Intermediate Course\\C#Part2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAANUAAAAAAAAAAAAvwPAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:32:38.336Z",
               "EditorCaption": ""
             }
           ]
