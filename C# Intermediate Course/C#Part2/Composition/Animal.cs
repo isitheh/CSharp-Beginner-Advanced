@@ -2,7 +2,7 @@
 
 public class Animal
 {
-    public int Age { get; set; }
+    private int Age { get; set; }
 	public Animal()
 	{
 	}

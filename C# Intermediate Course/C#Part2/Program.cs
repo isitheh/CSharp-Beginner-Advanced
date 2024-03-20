@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using C_Part2.ClassIntro;
+using C_Part2.Composition;
 using C_Part2.DbConExercise;
 using C_Part2.DemoEncapsulation;
 using C_Part2.Exercises;
@@ -158,6 +159,18 @@ void UsingComposition()
 
     dbMigrator.Migrate();
     installer.Install();
+
+    var duck = new Duck(new Animal(), new Walkable(), new Swimmable());
+    duck.TheDuckCan();
+
+    var goldFish = new GoldFish(new Animal(), new Swimmable());
+    goldFish.TheFishCan();
+
+    var person = new PersonAnimal(new Animal(), new Walkable());
+    person.ThePersonCan();
+
+    var dogAnimal = new DogAnimal(new Animal(), new Walkable());
+    dogAnimal.TheDogCan();
 }
 
 /*
