@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# advanced topics\\advancedc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# advanced topics\\advancedc#\\lambdafunc\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|solutionrelative:lambdafunc\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# advanced topics\\advancedc#\\lambdafunc\\mybook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|solutionrelative:lambdafunc\\mybook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyBook.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\LambdaFunc\\MyBook.cs",
+              "RelativeDocumentMoniker": "LambdaFunc\\MyBook.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\LambdaFunc\\MyBook.cs",
+              "RelativeToolTip": "LambdaFunc\\MyBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:34:25.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\LambdaFunc\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LambdaFunc\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\LambdaFunc\\BookRepository.cs",
+              "RelativeToolTip": "LambdaFunc\\BookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:34:00.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,9 +62,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAADwvzMAAABDAAAA",
+              "ViewState": "AQIAAAYBAAAAAAAAAAAuwA8BAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:11:21.698Z",
+              "WhenOpened": "2024-03-22T14:33:54.282Z",
               "EditorCaption": ""
             }
           ]
