@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# advanced topics\\advancedc#\\lambdafunc\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|solutionrelative:lambdafunc\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# advanced topics\\advancedc#\\lambdafunc\\mybook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|solutionrelative:lambdafunc\\mybook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\c# advanced topics\\advancedc#\\handlingexceptions\\youtubeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9527FF70-ED15-4222-A706-70348230ED26}|AdvancedC#.csproj|solutionrelative:handlingexceptions\\youtubeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyBook.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\LambdaFunc\\MyBook.cs",
-              "RelativeDocumentMoniker": "LambdaFunc\\MyBook.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\LambdaFunc\\MyBook.cs",
-              "RelativeToolTip": "LambdaFunc\\MyBook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T14:34:25.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\LambdaFunc\\BookRepository.cs",
-              "RelativeDocumentMoniker": "LambdaFunc\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\LambdaFunc\\BookRepository.cs",
-              "RelativeToolTip": "LambdaFunc\\BookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Title": "YouTubeException.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\HandlingExceptions\\YouTubeException.cs",
+              "RelativeDocumentMoniker": "HandlingExceptions\\YouTubeException.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\HandlingExceptions\\YouTubeException.cs",
+              "RelativeToolTip": "HandlingExceptions\\YouTubeException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T14:34:00.203Z",
+              "WhenOpened": "2024-03-23T15:03:04.328Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +45,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\C# Advanced Topics\\AdvancedC#\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYBAAAAAAAAAAAuwA8BAABOAAAA",
+              "ViewState": "AQIAAIABAAAAAAAAAAAkwJYBAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-22T14:33:54.282Z",
               "EditorCaption": ""

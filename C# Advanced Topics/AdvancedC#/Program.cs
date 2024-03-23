@@ -1,8 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.IO;
 using System.Runtime.InteropServices.JavaScript;
 using AdvancedC_.Delegates;
 using AdvancedC_.Events;
+using AdvancedC_.HandlingExceptions;
 using AdvancedC_.LambdaFunc;
 using static System.Reflection.Metadata.BlobBuilder;
 
@@ -16,6 +18,8 @@ Console.WriteLine("Hello, Advanced C# World!");
     UsingLinqExtensionMethods();
     UsingLinqQueryOperators();
     UsingNullable();
+    UsingDynamicTypes();
+    HandlingExceptions();
 }
 
 void UsingGenerics()
@@ -299,4 +303,111 @@ void UsingNullable()
 
     Console.WriteLine("====================================================");
     Console.WriteLine();
+}
+
+void UsingDynamicTypes()
+{
+    Console.WriteLine("================= Topic: Dynamic ==================");
+    dynamic dynamicVar = "Test";
+    Console.WriteLine("1.0 Dynamic Variable value: {0} ", dynamicVar);
+    //The line below fails at runtime (Not at compile time).
+    //Coz it is a dynamic typed variable. Which is string at this line.
+    //dynamicVar++;     
+    dynamicVar = 10;
+    Console.WriteLine("2.0 Dynamic Variable value: {0} ", dynamicVar);
+    //The line below passes at runtime.
+    //Coz it is a dynamic typed variable. Which is int at this line.
+    dynamicVar++;
+    Console.WriteLine("3.0 Dynamic Variable value: {0} ", dynamicVar);
+    Console.WriteLine("===================================================");
+    Console.WriteLine();
+}
+
+void HandlingExceptions()
+{
+    Console.WriteLine("============ Topic: HandlingExceptions ============");
+    DemonstratingTryCatch();
+    DemonstratingFinally();
+    DemonstratingUsingKeyword();
+    DemonstratingCustomException();
+    Console.WriteLine("===================================================");
+    Console.WriteLine();
+}
+
+void DemonstratingTryCatch()
+{
+    try
+    {
+        var calculation = new Calculator();
+        calculation.Divide(5, 0);
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine("1.0 Sorry. An unexpected error occured.");
+    }
+}
+
+void DemonstratingFinally()
+{
+    StreamReader streamReader = null;
+    //Can add a '?' to make this nullable.
+    //StreamReader ? streamReader = null;
+    try
+    {
+        streamReader = new StreamReader(@"C:\file.zip");
+        var content = streamReader.ReadToEnd();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine("2.0 Sorry. An unexpected error occured.");
+    }
+    finally
+    {
+        /*
+         * finally:
+         * Executes when the try/catch block exits. For any/all conditions.
+         * The finally bock will always be executed.
+         * Example:
+         * Very important to ensure that stream is closed
+         * no matter the outcome of the try catch.
+         */
+        if (streamReader != null)
+        {
+            streamReader.Dispose();
+        }
+    }
+}
+
+void DemonstratingUsingKeyword()
+{
+    /*
+     * Tip:
+     * To avoid having to call the finally block manually, can
+     * instead implement the 'using' keyword inside the try catch.
+     * This will implement the finally block under the hood.
+     */
+    try
+    {
+        using (var streamReader = new StreamReader(@"C:\file.zip"))
+        {
+            var content = streamReader.ReadToEnd();
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine("3.0 Sorry. An unexpected error occured.");
+    }
+}
+
+void DemonstratingCustomException()
+{
+    try
+    {
+        var api = new YouTubeApi();
+        api.GetYouTubeVideos("ShowBizz");
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
 }
