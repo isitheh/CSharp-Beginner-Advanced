@@ -1,12 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.IO;
-using System.Runtime.InteropServices.JavaScript;
 using AdvancedC_.Delegates;
 using AdvancedC_.Events;
 using AdvancedC_.HandlingExceptions;
 using AdvancedC_.LambdaFunc;
-using static System.Reflection.Metadata.BlobBuilder;
 
 Console.WriteLine("Hello, Advanced C# World!");
 {
@@ -20,6 +17,7 @@ Console.WriteLine("Hello, Advanced C# World!");
     UsingNullable();
     UsingDynamicTypes();
     HandlingExceptions();
+    DemonstratingAsyncWait();
 }
 
 void UsingGenerics()
@@ -410,4 +408,58 @@ void DemonstratingCustomException()
     {
         Console.WriteLine(e.Message);
     }
+}
+void DemonstratingAsyncWait()
+{
+    Console.WriteLine("========= Topic: Asynchronous Programming =========");
+    DemoWithoutAsyncWait();
+    DemoWithAsyncWait();
+    GetWithoutAsyncWait();
+    GetWithAsyncWait();
+    Console.WriteLine("===================================================");
+    Console.WriteLine();
+}
+
+void DemoWithoutAsyncWait()
+{
+    Console.WriteLine("=============== Sync Start Time: {0} ===============", DateTime.Now);
+    //Synchronous Processing
+    var webAddress = "http://msdn.microsoft.com";
+    var demoAsync = new DemoAsync();
+    demoAsync.DownloadHtml(webAddress);
+    Console.WriteLine("================ Sync End Time: {0} ================", DateTime.Now);
+
+}
+
+async void DemoWithAsyncWait()
+{
+    Console.WriteLine("=============== Async Start Time: {0} ==============", DateTime.Now);
+    //Synchronous Processing
+    var webAddress = "http://msdn.microsoft.com";
+    var demoAsync = new DemoAsync();
+    await demoAsync.DownloadHtmlAsync(webAddress);
+    Console.WriteLine("================ Async End Time: {0} ===============", DateTime.Now);
+}
+
+void GetWithoutAsyncWait()
+{
+    Console.WriteLine("=============== Sync Start Time: {0} ===============", DateTime.Now);
+    //Synchronous Processing
+    var webAddress = "http://msdn.microsoft.com";
+    var demoAsync = new DemoAsync();
+    var resp = demoAsync.GetHtml(webAddress).Substring(0, 100);
+    Console.WriteLine(resp);
+    Console.WriteLine("================ Sync End Time: {0} ================", DateTime.Now);
+
+}
+
+async void GetWithAsyncWait()
+{
+    Console.WriteLine("=============== A.0 Sync Start Time: {0} ===============", DateTime.Now);
+    //Synchronous Processing
+    var webAddress = "http://msdn.microsoft.com";
+    var demoAsync = new DemoAsync();
+    var resp = await demoAsync.GetHtmlAsync(webAddress);
+    Console.WriteLine(resp.Substring(0, 10));
+    Console.WriteLine("================ B.0 Sync End Time: {0} ================", DateTime.Now);
 }
