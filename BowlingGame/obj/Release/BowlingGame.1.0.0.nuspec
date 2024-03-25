@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BowlingGame</id>
+    <version>1.0.0</version>
+    <authors>BowlingGame</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="aae457232348a7b1b702dab3f72b38ac55338fd5" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="MSTest.TestAdapter" version="3.2.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\BowlingGame\bin\Release\net8.0\BowlingGame.runtimeconfig.json" target="lib\net8.0\BowlingGame.runtimeconfig.json" />
+    <file src="C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\BowlingGame\bin\Release\net8.0\BowlingGame.dll" target="lib\net8.0\BowlingGame.dll" />
+  </files>
+</package>
