@@ -10,7 +10,6 @@ namespace BowlingGame.Game_Play
         Spare = 1,
         Strike = 2
     }
-
     internal class BowlingGame
     {
         private const int Frames = 10;
@@ -18,9 +17,10 @@ namespace BowlingGame.Game_Play
         private const int GeneralGameDone = 19;
         private int _finalScore = 0;
         private int _rollsCounter = 0;
-        private dynamic _status = Status.Normal;
+        private Status _status = Status.Normal;
         private int _localScore = 0;
         private bool _doExtraRoll = false;
+
         public void Roll(int pins)
         {
             if (pins < 0 || pins > 10)
@@ -30,21 +30,14 @@ namespace BowlingGame.Game_Play
 
             if (_rollsCounter % 2 == 0)
             {
-                //This is first roll of frame.
                 _localScore = 0;
-                if (_status == Status.Spare)
+                if (_status == Status.Spare || _status == Status.Strike)
                 {
                     _finalScore += pins;
                 }
 
-                if (_status == Status.Strike)
-                {
-                    _finalScore += pins;
-                }
-                //Console.WriteLine("First roll of the frame {0} is valued {1}", _rollsCounter, pins);
                 if (pins == 10)
                 {
-                    //If the previous roll was also a strike - Add 10 before continuing
                     if (_status == Status.Strike)
                     {
                         _finalScore += pins;
@@ -62,7 +55,6 @@ namespace BowlingGame.Game_Play
                     if (_rollsCounter <= StrikeLastChance)
                     {
                         _rollsCounter++;
-                        //Console.WriteLine("We got a STRIKE");
                     }
                 }
                 _localScore += pins;
@@ -70,16 +62,11 @@ namespace BowlingGame.Game_Play
             }
             else
             {
-                //This is second roll of frame.
-                //Console.WriteLine("Second roll of the frame {0} is valued {1}", _rollsCounter, pins);
                 if (_status == Status.Strike || _rollsCounter > GeneralGameDone)
                 {
                     _finalScore += pins;
                 }
-                else
-                {
 
-                }
                 if (pins != 0)
                 {
                     _localScore += pins;
@@ -92,7 +79,6 @@ namespace BowlingGame.Game_Play
                         else
                         {
                             _status = Status.Spare;
-                            //Console.WriteLine("We got a SPARE");
                         }
                     }
                     else
@@ -101,7 +87,6 @@ namespace BowlingGame.Game_Play
                     }
                 }
                 _rollsCounter++;
-                //Console.WriteLine();
             }
             _finalScore += pins;
         }
@@ -121,10 +106,12 @@ namespace BowlingGame.Game_Play
 
         public void DoFullGame()
         {
-            //this.Roll(new int[] { 1, 3, 7, 3, 10, 1, 7, 5, 2, 5, 3, 8, 2, 8, 2, 10, 9, 0 });          //131
-            //this.Roll(new int[] { 1, 3, 7, 3, 10, 1, 7, 5, 2, 5, 3, 8, 2, 8, 2, 10, 9, 1, 10 });      //143
-            //this.Roll(new int[] { 1, 3, 7, 3, 10, 1, 7, 5, 2, 5, 3, 8, 2, 8, 2, 10, 10, 10, 10 }); //163
+            // Add your game logic here
+            //this.Roll(new int[] { 1, 3, 7, 3, 10, 1, 7, 5, 2, 5, 3, 8, 2, 8, 2, 10, 9, 0 });        //131
+            //this.Roll(new int[] { 1, 3, 7, 3, 10, 1, 7, 5, 2, 5, 3, 8, 2, 8, 2, 10, 9, 1, 10 });    //143
+            //this.Roll(new int[] { 1, 3, 7, 3, 10, 1, 7, 5, 2, 5, 3, 8, 2, 8, 2, 10, 10, 10, 10 });  //163
         }
+
         public void ScoreBoard()
         {
             _finalScore = 0;
