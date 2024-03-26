@@ -18,7 +18,7 @@ namespace BowlingGame.Game_Play
         private int _finalScore = 0;
         private int _rollsCounter = 0;
         private Status _status = Status.Normal;
-        private int _localScore = 0;
+        private int _frameScore = 0;
         private bool _doExtraRoll = false;
 
         public void Roll(int pins)
@@ -30,7 +30,7 @@ namespace BowlingGame.Game_Play
 
             if (_rollsCounter % 2 == 0)
             {
-                _localScore = 0;
+                _frameScore = 0;
                 if (_status == Status.Spare || _status == Status.Strike)
                 {
                     _finalScore += pins;
@@ -57,7 +57,7 @@ namespace BowlingGame.Game_Play
                         _rollsCounter++;
                     }
                 }
-                _localScore += pins;
+                _frameScore += pins;
                 _rollsCounter++;
             }
             else
@@ -69,8 +69,8 @@ namespace BowlingGame.Game_Play
 
                 if (pins != 0)
                 {
-                    _localScore += pins;
-                    if (_localScore == 10)
+                    _frameScore += pins;
+                    if (_frameScore == 10)
                     {
                         if (_doExtraRoll)
                         {

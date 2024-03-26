@@ -32,7 +32,7 @@
         },
         {
           "DockedHeight": 267,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -48,6 +48,10 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BowlingGameTest.cs",
@@ -57,8 +61,7 @@
               "RelativeToolTip": "Game Play\\BowlingGameTest.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:40:11.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T12:40:11.177Z"
             },
             {
               "$type": "Document",
@@ -68,7 +71,7 @@
               "RelativeDocumentMoniker": "Game Play\\BowlingGame.cs",
               "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\BowlingGame\\Game Play\\BowlingGame.cs",
               "RelativeToolTip": "Game Play\\BowlingGame.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAowHYAAAAJAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwDEAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T10:49:22.06Z",
               "EditorCaption": ""

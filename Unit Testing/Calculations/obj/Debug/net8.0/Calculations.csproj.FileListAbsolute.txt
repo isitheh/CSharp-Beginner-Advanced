@@ -1,0 +1,15 @@
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\bin\Debug\net8.0\Calculations.exe
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\bin\Debug\net8.0\Calculations.deps.json
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\bin\Debug\net8.0\Calculations.runtimeconfig.json
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\bin\Debug\net8.0\Calculations.dll
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\bin\Debug\net8.0\Calculations.pdb
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\Calculations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\Calculations.AssemblyInfoInputs.cache
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\Calculations.AssemblyInfo.cs
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\Calculations.csproj.CoreCompileInputs.cache
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\Calculations.sourcelink.json
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\Calculations.dll
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\refint\Calculations.dll
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\Calculations.pdb
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\Calculations.genruntimeconfig.cache
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\Calculations\obj\Debug\net8.0\ref\Calculations.dll

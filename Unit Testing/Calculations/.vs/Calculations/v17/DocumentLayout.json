@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\Calculations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\testcollectionorderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\customerdetailstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\customerfixturecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\customerfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 383,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\CalculationsTests\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:56:55.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestCollectionOrderer.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\TestCollectionOrderer.cs",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\TestCollectionOrderer.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\TestCollectionOrderer.cs",
+              "RelativeToolTip": "..\\CalculationsTests\\TestCollectionOrderer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:51:55.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerFixtureCollection.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerFixtureCollection.cs",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\CustomerFixtureCollection.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerFixtureCollection.cs",
+              "RelativeToolTip": "..\\CalculationsTests\\CustomerFixtureCollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:35:34.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerFixture.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerFixture.cs",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\CustomerFixture.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerFixture.cs",
+              "RelativeToolTip": "..\\CalculationsTests\\CustomerFixture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:28:00.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerDetailsTests.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerDetailsTests.cs",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\CustomerDetailsTests.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerDetailsTests.cs",
+              "RelativeToolTip": "..\\CalculationsTests\\CustomerDetailsTests.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T17:23:06.429Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 299,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 105,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5726b0e3-1012-5233-81f9-d1fad48e7a56}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
