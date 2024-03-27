@@ -7,6 +7,7 @@ C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\P
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\CalculationsTests\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\CalculationsTests\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\CalculationsTests\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\CalculationsTests\bin\Debug\net8.0\IsOddOrEvenTestData.txt
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\CalculationsTests\bin\Debug\net8.0\CalculationsTests.deps.json
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\CalculationsTests\bin\Debug\net8.0\CalculationsTests.runtimeconfig.json
 C:\Users\gamas1\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\Documents\Projects and Coding\CSharp\CSharp-Beginner-Advanced\Unit Testing\CalculationsTests\bin\Debug\net8.0\CalculationsTests.dll

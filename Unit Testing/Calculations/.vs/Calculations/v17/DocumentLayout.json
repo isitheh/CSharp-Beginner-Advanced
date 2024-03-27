@@ -3,19 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\Calculations\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\isoddorevendataattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\testcollectionorderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\testdatashare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\customerdetailstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\customerfixturecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\isoddoreventestdata.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1196AEEE-4D1B-4C18-9B19-9665BC101368}|..\\CalculationsTests\\CalculationsTests.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculationstests\\customerfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3539A39-DC35-40E3-8415-7CD205867E0A}|Calculations.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\unit testing\\calculations\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3539A39-DC35-40E3-8415-7CD205867E0A}|Calculations.csproj|solutionrelative:calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,63 +35,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "..\\CalculationsTests\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\AssemblyInfo.cs",
-              "RelativeToolTip": "..\\CalculationsTests\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABRAAAA",
+              "Title": "IsOddOrEvenDataAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\IsOddOrEvenDataAttribute.cs",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\IsOddOrEvenDataAttribute.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\IsOddOrEvenDataAttribute.cs",
+              "RelativeToolTip": "..\\CalculationsTests\\IsOddOrEvenDataAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T17:56:55.122Z",
+              "WhenOpened": "2024-03-26T19:19:52.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestCollectionOrderer.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\TestCollectionOrderer.cs",
-              "RelativeDocumentMoniker": "..\\CalculationsTests\\TestCollectionOrderer.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\TestCollectionOrderer.cs",
-              "RelativeToolTip": "..\\CalculationsTests\\TestCollectionOrderer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T17:51:55.387Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CustomerFixtureCollection.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerFixtureCollection.cs",
-              "RelativeDocumentMoniker": "..\\CalculationsTests\\CustomerFixtureCollection.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerFixtureCollection.cs",
-              "RelativeToolTip": "..\\CalculationsTests\\CustomerFixtureCollection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T17:35:34.548Z"
+              "Title": "IsOddOrEvenTestData.txt",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\IsOddOrEvenTestData.txt",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\IsOddOrEvenTestData.txt",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\IsOddOrEvenTestData.txt",
+              "RelativeToolTip": "..\\CalculationsTests\\IsOddOrEvenTestData.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-26T19:09:37.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerFixture.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerFixture.cs",
-              "RelativeDocumentMoniker": "..\\CalculationsTests\\CustomerFixture.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerFixture.cs",
-              "RelativeToolTip": "..\\CalculationsTests\\CustomerFixture.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "DocumentIndex": 1,
+              "Title": "TestDataShare.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\TestDataShare.cs",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\TestDataShare.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\TestDataShare.cs",
+              "RelativeToolTip": "..\\CalculationsTests\\TestDataShare.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T17:28:00.384Z"
+              "WhenOpened": "2024-03-26T18:59:34.471Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomerDetailsTests.cs",
-              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerDetailsTests.cs",
-              "RelativeDocumentMoniker": "..\\CalculationsTests\\CustomerDetailsTests.cs",
-              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CustomerDetailsTests.cs",
-              "RelativeToolTip": "..\\CalculationsTests\\CustomerDetailsTests.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Title": "CalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CalculatorTests.cs",
+              "RelativeDocumentMoniker": "..\\CalculationsTests\\CalculatorTests.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\CalculationsTests\\CalculatorTests.cs",
+              "RelativeToolTip": "..\\CalculationsTests\\CalculatorTests.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAYwIgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T17:23:06.429Z"
+              "WhenOpened": "2024-03-26T18:27:18.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\Calculations\\Calculator.cs",
+              "RelativeDocumentMoniker": "Calculator.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Unit Testing\\Calculations\\Calculator.cs",
+              "RelativeToolTip": "Calculator.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAhwBEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:26:08.2Z"
             }
           ]
         },
