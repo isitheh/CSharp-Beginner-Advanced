@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Getting Starded C#/1.0.0": {
+        "runtime": {
+          "Getting Starded C#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Getting Starded C#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
