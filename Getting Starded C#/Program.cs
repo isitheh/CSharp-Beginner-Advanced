@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.ComponentModel;
+
 {
     WorkingWithStrings();
     WorkingWithIntegers();
@@ -10,10 +12,14 @@
     WorkingWithTernaryOperator();
     WorkingWithSwitchStatement();
     WorkingWithCollections();
+    WorkingWithLoops();
+    WorkingWithMethds();
+    WorkingWithExceptions();
 }
 
 void WorkingWithStrings()
 {
+    PrintHeader();
     //Declare and assign a string with an escape
     string myString;
     myString = "Hello \"Dometrain\" World!";
@@ -50,10 +56,12 @@ void WorkingWithStrings()
     //Can use single quotes to declare a char
     char myChar = 'A';
     Console.WriteLine("My char is: " + myChar);
+    PrintFooter();
 }
 
 void WorkingWithIntegers()
 {
+    PrintHeader();
     //Declare and assign an integer
     int myInt = 5;
     Console.WriteLine("My integer is: " + myInt);
@@ -71,10 +79,12 @@ void WorkingWithIntegers()
     Console.WriteLine("Use Type Double Instead.");
     double quotientDouble = 5.0 / 10.0;
     Console.WriteLine("The quotient of 5.0 / 10.0 is: " + quotientDouble);
+    PrintFooter();
 }
 
 void WorkingWithFloatAndDouble()
 {
+    PrintHeader();
     //Declare and assign a float
     float myFloat = 5.5f;
     Console.WriteLine("My float is: " + myFloat);
@@ -98,10 +108,12 @@ void WorkingWithFloatAndDouble()
     Console.WriteLine("The quotient of 5.5 / 10.5 is: " + quotientFloat);
     double quotientDouble = 5.5 / 10.5;
     Console.WriteLine("The quotient of 5.5 / 10.5 is: " + quotientDouble);
+    PrintFooter();
 }
 
 void WorkingWithBooleans()
 {
+    PrintHeader();
     //Declare and assign a boolean
     bool myBool = true;
     Console.WriteLine("My boolean is: " + myBool);
@@ -122,10 +134,12 @@ void WorkingWithBooleans()
     Console.WriteLine("Is x < y: " + (x < y));
     Console.WriteLine("Is x >= y: " + (x >= y));
     Console.WriteLine("Is x <= y: " + (x <= y));
+    PrintFooter();
 }
 
 void WorkingWithDateTime()
 {
+    PrintHeader();
     //Declare and assign a DateTime
     DateTime myDateTime = DateTime.Now;
     Console.WriteLine("My DateTime is: " + myDateTime);
@@ -148,10 +162,12 @@ void WorkingWithDateTime()
     //Can create a DateTime from a DateOnly and TimeOnly
     DateTime myDateTimeFromParts = new DateTime(myDateOnly, myTimeOnly);
     Console.WriteLine("My DateTime from parts is: " + myDateTimeFromParts);
+    PrintFooter();
 }
 
 void CastingAndParsing()
 { 
+    PrintHeader();
     //Implicit casting
     int myInt = 5;
     double myDouble = myInt;
@@ -170,11 +186,13 @@ void CastingAndParsing()
     string myString2 = "5.5";   //Must be parseable to a double. Cannot parse "five point five".
     double myDouble3 = double.Parse(myString2);
     Console.WriteLine("My parsed double is: " + myDouble3);
+    PrintFooter();
 }
 
 void WorkingWithIfStatements()
-{ 
-    if(true)
+{
+    PrintHeader();
+    if (true)
     {
         Console.WriteLine("This will always print.");
     }
@@ -227,10 +245,12 @@ void WorkingWithIfStatements()
     {
         Console.WriteLine("Number is between 1 and 5.");
     }
+    PrintFooter();
 }
 
 void WorkingWithTernaryOperator()
 {
+    PrintHeader();
     //Ternary operator Syntax: condition ? expression1 : expression2
     int x = 5;
     int y = 10;
@@ -240,10 +260,12 @@ void WorkingWithTernaryOperator()
 
     result = x == y ? "x is equal to y." : "x is not equal to y.";
     Console.WriteLine(result);
+    PrintFooter();
 }
 
 void WorkingWithSwitchStatement()
 {
+    PrintHeader();
     /*
      * A Note: 
      *  break statement: is used to exit the switch statement. 
@@ -290,13 +312,16 @@ void WorkingWithSwitchStatement()
         "Sunday" => "Its Sunday",
         _ => "Invalid day of the week"
     };
+    PrintFooter();
 } 
 
 void WorkingWithCollections()
 {
+    PrintHeader();
     workingWithArrays();
     WorkingWithLists();
     WorkingWithDictionaries();
+    PrintFooter();
 }
 
 void workingWithArrays()
@@ -468,6 +493,220 @@ void WorkingWithDictionaries()
     wordNumber.Remove("One");
 
     //Add a value that already exists in the dictionary
-    wordNumber.Add("Two", 2);
+    //wordNumber.Add("Two", 2);
+    //This will throw an ArgumentException item with the same key has already been added.
+}
 
+void WorkingWithLoops()
+{
+    PrintHeader();
+    WorkingWithWhileLoops();
+    WorkingWithForLoops();
+    WorkingWithForEach();
+    PrintFooter();
+}
+
+void WorkingWithWhileLoops()
+{
+    /*
+     * While loop:
+     *  Offers a way to run a specific bloc of code 
+     *  while a certain condition remains true. 
+     */
+    int count = 0;
+    while(count < 5)
+    {
+        Console.WriteLine("This will print while condition is true.");
+        count++;    //count = count + 1;
+    }
+    Console.WriteLine($"The total count = {count}");
+    count = 0;
+    do
+    {
+        //The check of the condition is at the end of the loop.
+        Console.WriteLine("Always executed at least once.");
+        count++;    //Increment the count by 1.
+    } while (count < 5);
+    Console.WriteLine($"The total count = {count}");
+
+    count = 0;
+    while(count < 5)
+    {
+        if (count == 2)
+        {
+            count++; 
+            Console.WriteLine("Skipping the current iteration.");
+            continue;
+        }
+        Console.WriteLine(count);
+        count++;    //count = count + 1;
+
+        if (count == 4)
+        {
+            Console.WriteLine("Breaking out of the while loop.");
+            break;
+        }
+    }
+    Console.WriteLine($"The total count = {count}");
+}
+
+void WorkingWithForLoops()
+{
+    /*
+     * For Loops:
+     *  The for loop is used to iterate over a sequence of items.
+     *  1. The initialization statement is executed only once.
+     *  2. The condition is evaluated before each iteration of the loop.
+     *  3. The increment statement is executed after each iteration of the loop. 
+     */
+    for(int i = 0; i < 5; i++)
+    {
+        if(i == 2)
+        {
+            Console.WriteLine("Skipping the current iteration.");
+            continue;
+        }
+        if(i == 4)
+        {
+            Console.WriteLine("Breaking out of the for loop.");
+            break;
+        }
+        Console.WriteLine(i);
+    }
+}
+
+void WorkingWithForEach()
+{
+    /*
+     * Foreach Loops:
+     *  Used to iterate over a collection of items.
+     *  Extract each item of type T from the collection and assign it to a variable.
+     *  Collections implement IEnumerable<T> interface. And can be used in a foreach loop.
+     */
+    List<string> names = new List<string>() { "Alice", "Bob", "Abishola" };
+    foreach(string name in names)
+    {
+        Console.WriteLine($"My name is {name}");
+    }
+
+    //Foreach loop with a dictionary
+    Dictionary<string, int> nameAges = new Dictionary<string, int>()
+    {
+        { "Alice", 1 },
+        { "Bob", 2 },
+        { "Abishola", 3 }
+    };
+    foreach(KeyValuePair<string, int> pair in nameAges)
+    {
+        Console.WriteLine($"{pair.Key} is {pair.Value} years old.");
+    }
+    //Do the same with var
+    Dictionary<string, int> nameAgesAgain = new Dictionary<string, int>()
+    {
+        { "Jane", 10 },
+        { "Joe", 20 },
+        { "Doe", 30 }
+    };
+    foreach (var pair in nameAgesAgain)
+    {
+        if(pair.Key == "Jane")
+        {
+            Console.WriteLine("Dont print Jane's age. A lady never reveals her age.");
+            continue;
+        }
+        Console.WriteLine($"{pair.Key} is {pair.Value} years old.");
+        if(pair.Key == "Joe")
+        {
+            Console.WriteLine("Break here");
+            break;
+        }
+    }
+}
+
+void WorkingWithMethds()
+{
+    //Methods are used to encapsulate a block of code that performs a specific task.
+    //Methods are reusable - can be called multiple times.
+    //Methods can have parameters - input values.
+    //Methods can have return values - output values. Or void - no output value.
+    //Methods can be static - belong to the class. Or instance - belong to an object.
+    //Methods can be public - accessible from outside the class. Or private - accessible only within the class.
+    //Methods can be overloaded - have the same name but different parameters.
+    //Methods can be overridden - have the same name and parameters in a derived class.
+    //Methods can be virtual - can be overridden in a derived class.
+    //Methods can be abstract - must be overridden in a derived class.
+    //Methods can be sealed - cannot be overridden in a derived class.
+    //Methods can be async - run asynchronously.
+    //Methods can be partial - split across multiple files.
+    //Methods can be extension - extend the functionality of a type without modifying the type.
+    //Parameter is a variable in a method definition.
+    //Argument is the actual value of the parameter that is passed to the method.
+    //Parameter go inside the method during method definition. 
+    //Argument is passed to the method during the method call.
+    //A return value is the value that a method returns to the calling method.
+    //A method signature is the name of the method and the number and type of its parameters.
+    //A method body is the block of code that performs the task of the method.
+    //A method call is the code that invokes the method.
+    //A method definition is the code that defines the method.
+    //A method declaration is the code that declares the method.
+    //A method implementation is the code that implements the method.
+    //A method invocation is the code that calls the method.
+    //A function is a method that returns a value.
+    PrintHeader();
+    PrintNameAndAge("John Doe", 34);    //Call the method with arguments
+    int mSum = AddingIntegers(5, 10);  //Call the method with arguments and return value into a variable mSum
+    Console.WriteLine("The sum of 5 and 10 is: " + mSum);
+    PrintFooter();
+}
+
+int AddingIntegers(int v1, int v2)
+{
+    //This function takes two integers as input and returns the sum of the two integers.
+    return v1 + v2;
+}
+
+void PrintNameAndAge(string name, int age)
+{
+    //name and age are parameters
+    Console.WriteLine($"My name is {name}. I am {age} years old.");
+}
+
+void PrintHeader()
+{
+    Console.WriteLine("============== Start Method ==============");
+}
+
+void PrintFooter()
+{
+    Console.WriteLine("============== End Method ================");
+    Console.WriteLine("==========================================");
+    Console.WriteLine();
+}
+
+void WorkingWithExceptions()
+{
+    PrintHeader();
+    try
+    {
+        int quotient = IntegerDivision(10, 0);
+    } catch(DivideByZeroException ex)
+    {
+        Console.WriteLine("Cannot divide by zero.");
+    } catch(Exception ex)
+    {
+        Console.WriteLine("An error occurred: " + ex.Message);
+    } finally
+    {
+        //This block will always execute.
+        //Finally block is used to execute important code such as closing a file or releasing resources.
+        //Code that must execute after a try block, whether an exception is thrown or not should be here.
+        Console.WriteLine("Finally: Do a cleanup.");
+    }
+    
+    PrintFooter();
+}
+
+int IntegerDivision(int v1, int v2)
+{
+    return v1/ v2;
 }

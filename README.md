@@ -9,6 +9,12 @@ Part 2:
 Part 3:
   Name: C# Advanced Topics: Prepare for Technical Interviews
   Link: https://www.udemy.com/course/csharp-advanced
+Part 4:
+  Name: Getting Started: C#
+  Link: https://app.dometrain.com/courses/getting-started-c
+Part 5:
+  Name: Foundational C# with Microsoft
+  Link: https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/ 
 Testing:
   Name: Unit Testing Dotnet (.NET) Application with xUnit .net & MOQ
   Link: https://www.udemy.com/course/unit-testing-net-core-2x-applications-with-xunit-net
