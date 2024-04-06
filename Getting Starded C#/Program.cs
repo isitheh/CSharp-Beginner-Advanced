@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Getting_Starded_C_;
 using System.ComponentModel;
 
 {
@@ -15,6 +16,7 @@ using System.ComponentModel;
     WorkingWithLoops();
     WorkingWithMethds();
     WorkingWithExceptions();
+    WorkingWithOOP();
 }
 
 void WorkingWithStrings()
@@ -709,4 +711,108 @@ void WorkingWithExceptions()
 int IntegerDivision(int v1, int v2)
 {
     return v1/ v2;
+}
+
+void WorkingWithOOP()
+{
+    PrintHeader();
+    OurClass ourObject = new OurClass();
+    ourObject.PrintHello();
+    int result = ourObject.ExampleFunction();
+    Console.WriteLine("Result = " + result);
+    OurClass.PrintStaticHello();
+    WorkingWithObjects();
+    StaticVsInstances();
+    WorkingWithConstructor();
+    PrintFooter();
+}
+
+void WorkingWithObjects()
+{
+    OurClass ourObject1 = new OurClass();   //New reference to the object
+    OurClass ourObject2 = new OurClass();  //New reference to the object
+    OurClass ourObject3 = ourObject1;      //Both ourObject1 and ourObject3 refer to the same object
+    ourObject3 = ourObject2;               //ourObject3 now refers to the object that ourObject2 refers to
+    
+    //Passing by value
+    int value = 5;
+    Console.WriteLine("Initial Value = " + value);
+    ChangeMyValue(value);
+    Console.WriteLine("Did Value Change = " + value);
+
+    //Passing by reference
+    List<int> numbers = new List<int>() { 1, 2, 3 };
+    Console.WriteLine("Initial List = " + string.Join(", ", numbers));
+    ChangeMyList(numbers);
+    Console.WriteLine("Did List Change = " + string.Join(", ", numbers));
+
+    var person = new Person("John", "Doe", 34);
+    person.PrintPerson();
+
+    var getAndSet = new GetAndSet();
+    Console.WriteLine("Mutable Name = " + getAndSet.MutableName);
+    Console.WriteLine("Setting Name:");
+    getAndSet.MutableName = "Jona";
+    Console.WriteLine("Mutable Name = " + getAndSet.MutableName);
+}
+
+void ChangeMyValue(int value)
+{
+    value = 10;
+    Console.WriteLine("Inside ChangeMyValue Value = " + value);
+}
+
+void ChangeMyList(List<int> numbers)
+{
+    numbers.Add(4);
+    numbers.Add(5);
+}
+
+void StaticVsInstances()
+{
+    //Creating an instance of StaticClass does not work because a static class cannot be instantiated
+    //var mStaticClassObject = new StaticClass();
+    StaticClass.StaticMethod();
+
+    var mNonStaticClass = new NonStaticClass();
+    //Before Mutation
+    Console.WriteLine("=============== Before Mutation ===============");
+    Console.WriteLine("Instance Property = " + mNonStaticClass.MyInstanceProperty);
+    Console.WriteLine("Static Property = " + NonStaticClass.MyStaticProperty);
+    NonStaticClass.StaticMethod();
+
+    //After Mutation
+    Console.WriteLine("=============== After Mutation ======-=========");
+    mNonStaticClass.MyInstanceProperty = "New Instance Property";
+    NonStaticClass.MyStaticProperty = "New Static Property";
+    Console.WriteLine("Instance Property = " + mNonStaticClass.MyInstanceProperty);
+    Console.WriteLine("Static Property = " + NonStaticClass.MyStaticProperty);
+    NonStaticClass.StaticMethod();
+}
+
+void WorkingWithConstructor()
+{
+    DemoClass mDemoClass = new();
+    DemoClass mDemoClassWithParam = new("Hello Overloaded Constructor.");
+    //Demonstrate Constructor Chaining
+    ConstructorChaining constructorChaining = new();
+    //If a parameter is passed, the default constructor does not get called.
+    ConstructorChaining constructorChainingWithoutChaining = new("Custom string");
+    WordCollection wordCollection = new WordCollection();
+    wordCollection.AddWord("Hello");
+    wordCollection.AddWord("World");
+    wordCollection.AddWord("From");
+    wordCollection.AddWord("WordCollection");
+    wordCollection.PrintWords();
+    wordCollection.RemoveWord("World");
+    wordCollection.PrintWords();
+    wordCollection.ClearWords();
+    wordCollection.PrintWords();
+
+    WordsList mWordsList = new(new List<string> 
+    { 
+        "Hello", 
+        "Overthere"
+    });
+    mWordsList.PrintWords();
 }

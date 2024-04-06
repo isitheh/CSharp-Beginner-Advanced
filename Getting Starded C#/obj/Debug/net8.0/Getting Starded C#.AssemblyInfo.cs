@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Getting Starded C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a49464165f2007faf4765a25103de768f3544646")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a91d0c7f5f2ea6bae8bbc50fb73b6deb9e14234")]
 [assembly: System.Reflection.AssemblyProductAttribute("Getting Starded C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Getting Starded C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
