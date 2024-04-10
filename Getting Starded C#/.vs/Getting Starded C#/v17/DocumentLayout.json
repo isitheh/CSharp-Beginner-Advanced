@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7D657D8D-C63E-4DF9-9A93-CEF2AEE71B9D}|Getting Starded C#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7D657D8D-C63E-4DF9-9A93-CEF2AEE71B9D}|Getting Starded C#.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\getting starded c#\\democalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D657D8D-C63E-4DF9-9A93-CEF2AEE71B9D}|Getting Starded C#.csproj|solutionrelative:democalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D657D8D-C63E-4DF9-9A93-CEF2AEE71B9D}|Getting Starded C#.csproj|c:\\users\\gamas1\\onedrive - reed elsevier group ico reed elsevier inc\\documents\\projects and coding\\csharp\\csharp-beginner-advanced\\getting starded c#\\wordslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D657D8D-C63E-4DF9-9A93-CEF2AEE71B9D}|Getting Starded C#.csproj|solutionrelative:wordslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 383,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,6 +63,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DemoCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\DemoCalculator.cs",
+              "RelativeDocumentMoniker": "DemoCalculator.cs",
+              "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\DemoCalculator.cs",
+              "RelativeToolTip": "DemoCalculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T19:38:50.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WordsList.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\WordsList.cs",
               "RelativeDocumentMoniker": "WordsList.cs",
@@ -66,12 +83,11 @@
               "RelativeToolTip": "WordsList.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T08:57:54.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T08:57:54.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WordCollection.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\WordCollection.cs",
               "RelativeDocumentMoniker": "WordCollection.cs",
@@ -79,12 +95,11 @@
               "RelativeToolTip": "WordCollection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T08:52:02.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T08:52:02.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ConstructorChaining.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\ConstructorChaining.cs",
               "RelativeDocumentMoniker": "ConstructorChaining.cs",
@@ -92,12 +107,11 @@
               "RelativeToolTip": "ConstructorChaining.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T07:37:16.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T07:37:16.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DemoClass.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\DemoClass.cs",
               "RelativeDocumentMoniker": "DemoClass.cs",
@@ -105,12 +119,11 @@
               "RelativeToolTip": "DemoClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T07:32:00.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T07:32:00.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NonStaticClass.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\NonStaticClass.cs",
               "RelativeDocumentMoniker": "NonStaticClass.cs",
@@ -118,8 +131,7 @@
               "RelativeToolTip": "NonStaticClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:01:48.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T12:01:48.026Z"
             },
             {
               "$type": "Document",
@@ -129,14 +141,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABYDAAAAAAAAAAAqwDADAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-01T15:39:23.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StaticClass.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\StaticClass.cs",
               "RelativeDocumentMoniker": "StaticClass.cs",
@@ -144,12 +156,11 @@
               "RelativeToolTip": "StaticClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:31:44.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T11:31:44.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GetAndSet.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\GetAndSet.cs",
               "RelativeDocumentMoniker": "GetAndSet.cs",
@@ -157,12 +168,11 @@
               "RelativeToolTip": "GetAndSet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T10:27:36.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T10:27:36.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\Person.cs",
               "RelativeDocumentMoniker": "Person.cs",
@@ -170,12 +180,11 @@
               "RelativeToolTip": "Person.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T10:22:06.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T10:22:06.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OurClass.cs",
               "DocumentMoniker": "C:\\Users\\gamas1\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Projects and Coding\\CSharp\\CSharp-Beginner-Advanced\\Getting Starded C#\\OurClass.cs",
               "RelativeDocumentMoniker": "OurClass.cs",
@@ -183,8 +192,7 @@
               "RelativeToolTip": "OurClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T04:29:52.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T04:29:52.06Z"
             }
           ]
         },

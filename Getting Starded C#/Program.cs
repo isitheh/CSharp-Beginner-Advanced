@@ -17,6 +17,7 @@ using System.ComponentModel;
     WorkingWithMethds();
     WorkingWithExceptions();
     WorkingWithOOP();
+    DemoByCalculator();
 }
 
 void WorkingWithStrings()
@@ -815,4 +816,12 @@ void WorkingWithConstructor()
         "Overthere"
     });
     mWordsList.PrintWords();
+}
+
+void DemoByCalculator()
+{
+    PrintHeader();
+    DemoCalculator demoCalculator = new("Welcome to the Calculator.");
+    demoCalculator.Start();
+    PrintFooter();
 }
